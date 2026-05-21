@@ -7,45 +7,78 @@
 
   <style>
     body{
-      background:#111;
-      color:white;
+      margin:0;
       font-family:Arial;
+      background:#0f172a;
+      color:white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
       text-align:center;
-      padding-top:100px;
+    }
+
+    .box{
+      padding:40px;
     }
 
     h1{
-      font-size:50px;
+      font-size:55px;
+      margin-bottom:10px;
     }
 
     p{
       font-size:22px;
-      color:#ccc;
+      color:#cbd5e1;
     }
 
-    button{
-      background:#00bcd4;
-      border:none;
-      padding:15px 30px;
+    .links{
+      margin-top:35px;
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+
+    .links a{
+      text-decoration:none;
+      background:#38bdf8;
       color:white;
-      font-size:20px;
-      border-radius:10px;
-      cursor:pointer;
+      padding:15px;
+      border-radius:12px;
+      font-size:22px;
+      transition:0.3s;
     }
 
-    button:hover{
-      background:#0097a7;
+    .links a:hover{
+      background:#0ea5e9;
+      transform:scale(1.05);
     }
   </style>
 </head>
 
 <body>
 
-  <h1>🚀 مرحبًا بك في موقعي</h1>
+  <div class="box">
+    <h1>🚀 مرحباً بك في موقعي</h1>
 
-  <p>هذا أول موقع أصنعه بنفسي</p>
+    <p>تابعني على منصات التواصل الاجتماعي</p>
 
-  <button>اضغط هنا</button>
+    <div class="links">
+
+      <a href="https://www.instagram.com/palestine.russia?igsh=d3ZhNzZqenNmeHlt&utm_source=qr" target="_blank">
+        Instagram
+      </a>
+
+      <a href="https://youtube.com/@mohammed_elafifi?si=3PjYKSKseQ5CyIq2" target="_blank">
+        YouTube
+      </a>
+
+      <a href="https://www.tiktok.com/@mohammed.elafifi?_r=1&_t=ZS-96YHcAwtKjt" target="_blank">
+        TikTok
+      </a>
+
+    </div>
+  </div>
 
 </body>
 </html>
